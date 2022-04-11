@@ -47,7 +47,6 @@ value的值就是申请到的api key
         <service android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote">
-
         </service>
     </application>
 
