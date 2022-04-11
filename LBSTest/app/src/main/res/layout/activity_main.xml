@@ -4,13 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:id="@+id/position_tv"
+      android:visibility="gone"
+
       />
+<!--
+定义一个mapview控件，使用完整包名
+铺满整个屏幕
+-->
+  <com.baidu.mapapi.map.MapView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/bauduMapView"
+      android:clickable="true"/>
+
+
+
 
 
 </LinearLayout>
